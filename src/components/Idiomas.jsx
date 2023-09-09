@@ -1,6 +1,6 @@
 import React from 'react'
-import spain from '../assets/es.jpg'
-import schweiz from '../assets/ch.jpg'
+import spain from '../imagenes/es.jpg'
+import schweiz from '../imagenes/ch.jpg'
 import '../stylesheet/idiomas.css'
 
 const Idiomas = () => {
