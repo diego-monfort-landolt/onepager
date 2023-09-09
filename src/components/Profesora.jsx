@@ -13,6 +13,7 @@ const idioma = alumno[2].idioma
     <>
     <div className='profesora'>
         <h1>{alumno[idioma].boton1}</h1>
+        
         <div className='foto'>
             <img className='imagen' src={imagenes} alt='foto' />
         </div>

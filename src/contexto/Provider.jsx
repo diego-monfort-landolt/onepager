@@ -19,7 +19,7 @@ const valores = [
         boton2: 'Diego CH',
         foto: 'diego1.jpg',
         nombre: 'Diego Diego',
-        boton1: 'Öffnen',
+        boton1: 'CH',
         direcsion: 'strasse 123, Zürich',
 
     },

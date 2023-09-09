@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import Contexto from '../contexto/Contexto'
+
+
 
 const Ubicasion = () => {
+  const {alumno} =useContext(Contexto)
+  const idioma =alumno[2].idioma
+
   return (
     <>
     <div className='ubicasion'>
-        <h1>Backend Developer</h1>
+        <h1>{alumno[idioma].boton2}</h1>
         <div className='texto'>
-            <p></p>
+            <p>{alumno[idioma].direcsion}</p>
         </div>
     </div>
 
